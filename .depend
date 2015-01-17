@@ -1,0 +1,9 @@
+ll.o: ll.c jm.h ll.h
+readline.o: readline.c readline.h
+queue.o: queue.c queue.h ll.h jm.h
+bitfield.o: bitfield.c bitfield.h
+hash.o: hash.c hash.h
+cache.o: cache.c cache.h hash.h
+coll.o: coll.c coll.h
+bt.o: bt.c bt.h jm.h
+twul.o: twul.c twul.h jm.h ll.h
